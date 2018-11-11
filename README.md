@@ -1,2 +1,2 @@
-# ak.github.io
+# ak
 ak mark &amp; miljö
