@@ -265,9 +265,9 @@ button {
   margin-left: 0px;
 }
 
-@media screen and (max-width: 678px){
+@media screen and (min-width: 678px){
   .mobile{
-    display: ;
+    display: none;
   }
 }
 
