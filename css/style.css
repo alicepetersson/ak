@@ -13,6 +13,9 @@ body
     .desktop-only {
         display:block !important;
     }
+    .mobile-only {
+        display:none !important;
+    }
 }
  
 //small screen sizes
