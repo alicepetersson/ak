@@ -8,27 +8,6 @@ body
 }
 
 
-//medium+ screen sizes
-@media (min-width:992px) {
-    .desktop-only {
-        display:block !important;
-    }
-    .mobile-only {
-        display:none !important;
-    }
-}
- 
-//small screen sizes
-@media (max-width: 991px) {
-    .mobile-only {
-        display:block !important;
-    }
- 
-    .desktop-only {
-        display:none !important;
-    }
-}
-
 div#wrapper{
 
   margin: 25px;
