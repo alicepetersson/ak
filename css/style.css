@@ -90,6 +90,12 @@ h3{
 
 }
 
+h4{
+font-size: 30px;
+font-family: 'Quicksand', sans-serif;
+
+}
+
 .image-container {
     position: relative;
     display: inline-block;
@@ -170,8 +176,10 @@ img
 input[type=submit] {
   border: none;
   outline: none;
-  background-color: #f86060 !important;
+  background-color: #189e46 !important;
   margin-top: 5px;
+  margin-bottom: 5px;
+
 }
 
 
@@ -200,7 +208,7 @@ input[type=submit] {
 
 .flip:hover {
 
-  color: pink;
+  color: #189e46;
 }
 
 #panel {
@@ -224,7 +232,7 @@ input[type=submit] {
 }
 
 .navbar-inverse .navbar-nav > li > a:hover {
-    color: pink;
+    color: #189e46;
     font-family: 'Quicksand', sans-serif;
     text-align:center;
     font-size: 20px;
@@ -236,7 +244,7 @@ a {
 }
 
 a:hover {
-    color: pink;
+    color: #189e46;
 
 
 
@@ -244,12 +252,12 @@ a:hover {
 }
 
 button {
-  background-color: pink;
+  background-color: #189e46;
   color: white;
 
 
 }
 
 #left{
-  margin-left:250px;
+  margin-left: 0px;
 }
