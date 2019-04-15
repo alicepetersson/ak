@@ -262,13 +262,12 @@ button {
   margin-left: 0px;
 }
 
-.mobileShow {display: none;} 
+#content-desktop {display: block;}
+#content-mobile {display: none;}
 
-  /* Smartphone Portrait and Landscape */ 
-  @media only screen 
-    and (min-device-width : 320px) 
-    and (max-device-width : 480px){ 
-      .mobileShow {display: inline;}
+@media screen and (max-width: 768px) {
+
+#content-desktop {display: none;}
+#content-mobile {display: block;}
+
 }
-
-  .mobileHide{ display: none;}
