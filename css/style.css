@@ -1,8 +1,29 @@
+
+
 body 
 {
   padding-top: 60px
 
 
+}
+
+
+//medium+ screen sizes
+@media (min-width:992px) {
+    .desktop-only {
+        display:block !important;
+    }
+}
+ 
+//small screen sizes
+@media (max-width: 991px) {
+    .mobile-only {
+        display:block !important;
+    }
+ 
+    .desktop-only {
+        display:none !important;
+    }
 }
 
 div#wrapper{
@@ -262,12 +283,3 @@ button {
   margin-left: 0px;
 }
 
-#content-desktop {display: block;}
-#content-mobile {display: none;}
-
-@media screen and (max-width: 768px) {
-
-#content-desktop {display: none;}
-#content-mobile {display: block;}
-
-}
