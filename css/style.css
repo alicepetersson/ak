@@ -265,6 +265,11 @@ button {
   margin-left: 0px;
 }
 
+@media screen and (max-width: 678px){
+  .mobile{
+    display: ;
+  }
+}
 
 @media screen and (max-width: 678px){
   .fullscreen{
